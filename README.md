@@ -61,7 +61,7 @@ For operating with the Xygeni platform, you must have a valid user account linke
 
 > **NOTE**: Your organization must have a valid subscription with Xygeni Security. Please proceed to [how to subscribe to Xygeni](https://xygeni.io/book-a-demo) for further details.
 
-Follow the instructions provided in the [Xygeni Quick Start](http://docs.xygeni.io/introduction/quick_start.htl) section of the documentation.
+Follow the instructions provided in the [Xygeni Quick Start](https://docs.xygeni.io/xydocs/introduction/quick_start.html) section of the documentation.
 
 ## Current checksums
 
