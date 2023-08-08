@@ -21,20 +21,14 @@ Follow the instructions provided in the [Xygeni Quick Start](http://docs.xygeni.
 
 ## Current checksums
 
-* `install.sh` (install script for Linux/macOS): 
+* `install.sh` (install script for Linux/macOS): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/install.sh.sha256)
+https://github.com/xygeni/xygeni/blob/a36ca1f19e8b820b78716f9ff04645e369f57693/checksum/latest/install.sh.sha256?plain=1#L1
 
-```
-3069927267261d644a796fc65e912375f399df3ba3903d926d79a55b92476b5b
+* `install.ps1` (install script for Windows): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/install.ps1.sha256)
+https://github.com/xygeni/xygeni/blob/a36ca1f19e8b820b78716f9ff04645e369f57693/checksum/latest/install.ps1.sha256?plain=1#L1
 
-```
-* `install.ps1` (install script for Windows):
-```
-f13defabd11da3c742acb46fbad8512e0e4ffca52b8359df07d9dbdb68b5688e
-```
-* `xygeni-release.zip` (scanner):
-```
-3b7dcae06f0968d20404eb06d5f779af1295de1ae9e6039e7f7df82bcec0e432
-```
+* `xygeni-release.zip` (scanner): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/xygeni-release.zip.sha256)
+https://github.com/xygeni/xygeni/blob/a36ca1f19e8b820b78716f9ff04645e369f57693/checksum/latest/xygeni-release.zip.sha256?plain=1#L1
 
 So you may verify the integrity of a downloaded artifact:
 
