@@ -72,7 +72,7 @@ https://github.com/xygeni/xygeni/blob/5e82f9d85d02d5e587b973b1bc566bd69ce3549b/c
 https://github.com/xygeni/xygeni/blob/5e82f9d85d02d5e587b973b1bc566bd69ce3549b/checksum/latest/install.ps1.sha256?plain=1#L1
 
 * `xygeni-release.zip` (scanner): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/xygeni-release.zip.sha256)
-https://github.com/xygeni/xygeni/blob/5e82f9d85d02d5e587b973b1bc566bd69ce3549b/checksum/latest/xygeni-release.zip.sha256?plain=1#L1
+https://github.com/xygeni/xygeni/blob/841fa430963d4627a3871350680038218121a099/checksum/latest/xygeni-release.zip.sha256?plain=1#L1
 
 So you may verify the integrity of a downloaded artifact:
 
