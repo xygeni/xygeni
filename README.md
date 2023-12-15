@@ -66,16 +66,16 @@ Follow the instructions provided in the [Xygeni Quick Start](https://docs.xygeni
 ## Current checksums
 
 * `install.sh` (install script for Linux/macOS): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/install.sh.sha256)
-https://github.com/xygeni/xygeni/blob/5e82f9d85d02d5e587b973b1bc566bd69ce3549b/checksum/latest/install.sh.sha256?plain=1#L1
+https://github.com/xygeni/xygeni/blob/main/checksum/latest/install.sh.sha256?plain=1#L1
 
 * `install.ps1` (install script for Windows): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/install.ps1.sha256)
-https://github.com/xygeni/xygeni/blob/5e82f9d85d02d5e587b973b1bc566bd69ce3549b/checksum/latest/install.ps1.sha256?plain=1#L1
+https://github.com/xygeni/xygeni/blob/main/checksum/latest/install.ps1.sha256?plain=1#L1
 
 * `xygeni-release.zip` (scanner): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/xygeni-release.zip.sha256)
-https://github.com/xygeni/xygeni/blob/f988a8223d92be024d57715f8c6ef9fabf3064dd/checksum/latest/xygeni-release.zip.sha256?plain=1#L1
+https://github.com/xygeni/xygeni/blob/main/checksum/latest/xygeni-release.zip.sha256?plain=1#L1
 
 * `salt.zip` (build attestations): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/salt.zip.sha256)
-https://github.com/xygeni/xygeni/blob/f0ea56d18c079b579093dcc4200c46effcb75229/checksum/latest/salt.zip.sha256?plain=1#L1
+https://github.com/xygeni/xygeni/blob/main/checksum/latest/salt.zip.sha256?plain=1#L1
 
 So you may verify the integrity of a downloaded artifact:
 
