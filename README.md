@@ -77,7 +77,7 @@ https://github.com/xygeni/xygeni/blob/f988a8223d92be024d57715f8c6ef9fabf3064dd/c
 * `salt.zip` (build attestations): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/salt.zip.sha256)
 https://github.com/xygeni/xygeni/blob/f0ea56d18c079b579093dcc4200c46effcb75229/checksum/latest/salt.zip.sha256?plain=1#L1
 
-So you may verify the integrity of a downloaded artifact:
+So you may verify the integrity of a downloaded artifact. For example, for install scripts:
 
 * Under Linux / macOS:
 ```
