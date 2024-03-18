@@ -72,10 +72,10 @@ https://github.com/xygeni/xygeni/blob/5ffb4f24d124856c9fd5ad064cb4d48b42e7f6c3/c
 https://github.com/xygeni/xygeni/blob/5ffb4f24d124856c9fd5ad064cb4d48b42e7f6c3/checksum/latest/install.ps1.sha256?plain=1#L1
 
 * `xygeni-release.zip` (scanner): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/xygeni-release.zip.sha256)
-https://github.com/xygeni/xygeni/blob/66be55732e807c7ffa59789d5605ffe0fff9de0a/checksum/latest/xygeni-release.zip.sha256?plain=1#L1
+https://github.com/xygeni/xygeni/blob/d5fc1d879be48662a52a59ace26e4049dd240e7b/checksum/latest/xygeni-release.zip.sha256?plain=1#L1
 
 * `salt.zip` (build attestations): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/salt.zip.sha256)
-https://github.com/xygeni/xygeni/blob/66be55732e807c7ffa59789d5605ffe0fff9de0a/checksum/latest/salt.zip.sha256?plain=1#L1
+https://github.com/xygeni/xygeni/blob/d5fc1d879be48662a52a59ace26e4049dd240e7b/checksum/latest/salt.zip.sha256?plain=1#L1
 
 So you may verify the integrity of a downloaded artifact. For example, for install scripts:
 
