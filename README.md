@@ -1,7 +1,7 @@
 
 <div align="center">
-  <img src="img/xygeni.logo.text.png" alt="xygeni logo" width="450"></img><br/>
-  <i>End to End Software Development and Delivery Security</i>
+  <img src="img/xygeni.logo.png" alt="xygeni logo" width="250"></img><br/>
+  <i>End to End Software Supply Chain Security</i>
 </div>
 
 ---
