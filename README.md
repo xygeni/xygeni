@@ -13,27 +13,29 @@
 
 ## Overview
 
-Xygeni is a platform for improving the Software Supply Chain Security posture for organizations.
+Enhance your **Application Security Posture Management (ASPM)** through comprehensive risk assessment, strategic prioritization, 
+and protection against attacks and malware infection throughout your Software Supply Chain.
 
-The platform protects the integrity and security of your software ecosystem throughout the entire DevOps
+**Xygeni** is a platform for improving the Software Supply Chain Security posture for organizations.
 
-The platform features:
+The platform protects the integrity and security of your software ecosystem throughout the entire SDLC
+by providing the following products:
 
-- **Application Security Posture Management (ASPM)**, unifying risk management from code to cloud delivering real time visibility, prioritization, and remediation. 
+- **[Application Security Posture Management (ASPM)](https://docs.xygeni.io/xygeni-products/application-security-posture-management-aspm)** unifies risk management from code to the cloud, providing real-time visibility, prioritization, and remediation. Security findings are contextualized to facilitate security and risk assessment, ensuring that your applications are protected from development to deployment.
 
-- **Code Security**, to protect critical code against malicious or unintended changes done without following a strict change review process. Vulnerabilities and malware in code are detected and prioritized. 
+- **[Code Security](https://docs.xygeni.io/xygeni-products/code-security-cs)**, to protect critical code against malicious or unintended changes done without following a strict change review process. Vulnerabilities and malware in code are detected and prioritized. 
 
-- **Open Source Security** offers real-time monitoring of your dependencies to detect and mitigate threats before they impact your software. Both vulnerable and malicious dependencies are identified, qualified according to factors like reachability and exploitability, and prioritized for remediation.
+- **[Open Source Security](https://docs.xygeni.io/xygeni-products/open-source-security-oss)** offers real-time monitoring of your dependencies to detect and mitigate threats before they impact your software. Both vulnerable and malicious dependencies are identified, qualified according to factors like reachability and exploitability, and prioritized for remediation.
 
-- **Software Supply Chain Security (SSCS)** protects your CI/CD pipelines by scanning configuration files, build scripts, and CI job definitions. The software infrastructure, including code repositories, package managers, CI/CD systems and component registries, is scanned for misconfigurations to prevent potential supply chain attacks. It also evaluates compliance with existing SSCS standards, to enforce robust security practices.
+- **[Software Supply Chain Security (SSCS)](https://docs.xygeni.io/xygeni-products/software-supply-chain-security-sscs)** protects your CI/CD pipelines by scanning configuration files, build scripts, and CI job definitions. The software infrastructure, including code repositories, package managers, CI/CD systems and component registries, is scanned for misconfigurations to prevent potential supply chain attacks. It also evaluates compliance with existing SSCS standards, to enforce robust security practices.
 
-- **Build Security** protects the integrity of your software artifacts and build/deploy pipelines. Create and publish attestations, signed documents about a software artifact that contain an authenticated statement about its provenance and other properties. Consumers of the artifact can then verify the origin of the artifact, its integrity, and whether it conforms with a predefined policy. This could prevent a malicious actor from modifying the artifact or the build/deploy process, and state certain properties about the artifact at build time (such as the absence of known critical vulnerabilities).
+- **[Build Security](https://docs.xygeni.io/xygeni-products/build-security)** protects the integrity of your software artifacts and build/deploy pipelines. Create and publish attestations, signed documents about a software artifact that contain an authenticated statement about its provenance and other properties. Consumers of the artifact can then verify the origin of the artifact, its integrity, and whether it conforms with a predefined policy. This could prevent a malicious actor from modifying the artifact or the build/deploy process, and state certain properties about the artifact at build time (such as the absence of known critical vulnerabilities).
 
-- **Secrets Security** provides a robust defense against secrets leakage within the software development lifecycle. It scans, detects, and blocks the release of sensitive information such as passwords, API keys, and tokens in real time. It also provides optional validation that the secret is currently active, and automated / guided remediation (where possible) or detailed instructions on how to remove / revoke any hardcoded secrets found.
+- **[Secrets Security](https://docs.xygeni.io/xygeni-products/secrets-security)** provides a robust defense against secrets leakage within the software development lifecycle. It scans, detects, and blocks the release of sensitive information such as passwords, API keys, and tokens in real time. It also provides optional validation that the secret is currently active, and automated / guided remediation (where possible) or detailed instructions on how to remove / revoke any hardcoded secrets found.
 
-- **IaC Security** in provisioning IT/Cloud templates, for the main IaC frameworks and configuration management tools. Common security flaws are reported before the assets are deployed at runtime, with detailed remediation instructions.
+- **[iac security](https://docs.xygeni.io/xygeni-products/iac-security)** in provisioning IT/Cloud templates, for the main IaC frameworks and configuration management tools. Common security flaws are reported before the assets are deployed at runtime, with detailed remediation instructions.
 
-- **Anomaly Detection** provides an additional layer of security by continuously monitoring and analyzing activity within your SCM and CI/CD infrastructure to quickly identify and respond to unusual behavior. Xygeni detects anomalies that indicate unauthorized changes, access, or exploits in real time. This proactive approach ensures that potential security breaches are addressed before they can escalate into serious threats.
+- **[Anomaly Detection](https://docs.xygeni.io/xygeni-products/anomaly-detection)** provides an additional layer of security by continuously monitoring and analyzing activity within your SCM and CI/CD infrastructure to quickly identify and respond to unusual behavior. Xygeni detects anomalies that indicate unauthorized changes, access, or exploits in real time. This proactive approach ensures that potential security breaches are addressed before they can escalate into serious threats.
 
 ## The platform components
 
