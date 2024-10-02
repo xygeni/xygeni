@@ -8,7 +8,7 @@
 
 [![documentation](https://img.shields.io/badge/documentation-blue.svg)](https://docs.xygeni.io/) 
 [![api documentation](https://img.shields.io/badge/api-reference-blue.svg)](https://api.xygeni.io/swagger-ui.html) 
-[![version](https://img.shields.io/badge/version-3.2-blue.svg)]() 
+[![version](https://img.shields.io/badge/version-4.33-blue.svg)]() 
 [![xygeni.io](https://img.shields.io/badge/website-blue.svg)](https://xygeni.io/)
 
 ## Overview
@@ -19,23 +19,21 @@ The platform protects the integrity and security of your software ecosystem thro
 
 The platform features:
 
-- **SDLC inventory**, which is automatically discovered from sources and configuration. The inventory enables us to know how assets in software infrastructure at the organization are related, for impact and risk propagation analysis: _"We can't protect what we don't know it exists."_
+- **Application Security Posture Management (ASPM)**, unifying risk management from code to cloud delivering real time visibility, prioritization, and remediation. 
 
-- **Code tampering prevention**, to protect critical code againt unintended changes done without following a strict change review process. 
+- **Code Security**, to protect critical code against malicious or unintended changes done without following a strict change review process. Vulnerabilities and malware in code are detected and prioritized. 
 
-- **Identify unusual activity**, anomalies in behaviour as evidence for a potential security breach, particularly when administering SDLC tools. Imagine a resource like a organization's private code repository: clones from unintended users or from anomalous geographic locations, adding-and-removing permissions in a short time period, deleting branch protection rules, or using admin rights to merge code without review or with failed status checks, are examples of such anomalies.
+- **Open Source Security** offers real-time monitoring of your dependencies to detect and mitigate threats before they impact your software. Both vulnerable and malicious dependencies are identified, qualified according to factors like reachability and exploitability, and prioritized for remediation.
 
-- **Software dependency analysis**, to control open source, proprietary and third-party components used throughout the software supply chain. This includes the discovery of components, detection of common attacks to the dependencies like typosquatting or dependency confusion, and extended SBOM management.
+- **Software Supply Chain Security (SSCS)** protects your CI/CD pipelines by scanning configuration files, build scripts, and CI job definitions. The software infrastructure, including code repositories, package managers, CI/CD systems and component registries, is scanned for misconfigurations to prevent potential supply chain attacks. It also evaluates compliance with existing SSCS standards, to enforce robust security practices.
 
-- **Detection of misconfigurations**, in source code managers, CI/CD pipelines and tools, build and deploy tools, artifact registries and package managers. Misconfigurations at these tools open the door to supply chain attacks, so a quick-and-easy detection capacity is necessary.   
+- **Build Security** protects the integrity of your software artifacts and build/deploy pipelines. Create and publish attestations, signed documents about a software artifact that contain an authenticated statement about its provenance and other properties. Consumers of the artifact can then verify the origin of the artifact, its integrity, and whether it conforms with a predefined policy. This could prevent a malicious actor from modifying the artifact or the build/deploy process, and state certain properties about the artifact at build time (such as the absence of known critical vulnerabilities).
 
-- **Detection of Secret leaks** with optional validation that the secret is currently active and detailed instructions on how to remove / revoke the hardcoded secrets found.
+- **Secrets Security** provides a robust defense against secrets leakage within the software development lifecycle. It scans, detects, and blocks the release of sensitive information such as passwords, API keys, and tokens in real time. It also provides optional validation that the secret is currently active, and automated / guided remediation (where possible) or detailed instructions on how to remove / revoke any hardcoded secrets found.
 
-- **Finding IaC flaws** in provisioning IT/Cloud templates, for the main IaC frameworks and configuration management tools. Common security flaws are reported before the assets are deployed at runtime.
+- **IaC Security** in provisioning IT/Cloud templates, for the main IaC frameworks and configuration management tools. Common security flaws are reported before the assets are deployed at runtime, with detailed remediation instructions.
 
-- **Hardening build systems** with attestations on software provenance, chain of build steps and augmented SBOM, that could be validated and checked against deploy policies when the build artifact needs to be deployed or used by a client.
-
-- **Compliance assessment** with common software supply chain standards and guidelines, like `Google SLSA`, `OpenSSF ScoreCard`, `CIS Software Supply Chain Security` benchmark, `OWASP Top-10 for CI/CD Security`, or the `ESF Securing SSC Guide for Developers`. Xygeni runs sort of automated audits on software projects for compliance assessment, were each standard is composed of a set of checkpoints to pass. The result tells us if the project complies with the standard, with a compliance level.
+- **Anomaly Detection** provides an additional layer of security by continuously monitoring and analyzing activity within your SCM and CI/CD infrastructure to quickly identify and respond to unusual behavior. Xygeni detects anomalies that indicate unauthorized changes, access, or exploits in real time. This proactive approach ensures that potential security breaches are addressed before they can escalate into serious threats.
 
 ## The platform components
 
@@ -53,7 +51,7 @@ The platform is a cloud-based service, accessible via REST API, that keeps findi
 
 **Integrations**: Xygeni provides ready-made integrations for running scans in CI/CD systems or uploading security issues, performing administrative operations, or exporting findings to communication and reporting tools.
 
-**Watcher**: Activity on public registries is monitored by Xygeni so potential attacks could be detected early. Publishing new packages in popular public repositories is an example of an activity that is monitored by Xygeni. In addition, security advisories are ingressed for modelling new threats and malicious activity on the wild. Xygeni customers may receive alerts when a security issue may affect them.
+**Malware Early Warning, MEW**: Activity on public registries is monitored by Xygeni so potential attacks could be detected early. Publishing new packages in popular public repositories is an example of an activity that is monitored by Xygeni. In addition, security advisories are ingressed for modelling new threats and malicious activity on the wild. Xygeni customers may receive alerts when a security issue may affect them.
 
 ## Installation
 
@@ -61,7 +59,7 @@ For operating with the Xygeni platform, you must have a valid user account linke
 
 > **NOTE**: Your organization must have a valid subscription with Xygeni Security. Please proceed to [how to subscribe to Xygeni](https://xygeni.io/book-a-demo) for further details.
 
-Follow the instructions provided in the [Xygeni Quick Start](https://docs.xygeni.io/xydocs/introduction/quick_start.html) section of the documentation.
+Follow the instructions provided in the [Getting Started](https://docs.xygeni.io/getting-started) section of the documentation.
 
 ## Current checksums
 
