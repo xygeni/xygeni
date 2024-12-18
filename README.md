@@ -69,10 +69,10 @@ Follow the instructions provided in the [Xygeni Quick Start](https://docs.xygeni
 https://github.com/xygeni/xygeni/blob/ec353d61e560fb031a5983ba5d57cab843833152/checksum/latest/install.sh.sha256?plain=1#L1
 
 * `install.ps1` (install script for Windows): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/install.ps1.sha256)
-https://github.com/xygeni/xygeni/blob/036472c2e102272f82360446ab51f1e9dee876e8/checksum/latest/install.ps1.sha256?plain=1#L1
+https://github.com/xygeni/xygeni/blob/a5546e4fcca586d01d195301a8758889c8ded8e4/checksum/latest/install.ps1.sha256?plain=1#L1
 
 * `xygeni-release.zip` (scanner): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/xygeni-release.zip.sha256)
-https://github.com/xygeni/xygeni/blob/e393089cc73746a0dbbc9c4e8bc83e09c057e39d/checksum/latest/xygeni-release.zip.sha256?plain=1#L1
+https://github.com/xygeni/xygeni/blob/a5546e4fcca586d01d195301a8758889c8ded8e4/checksum/latest/xygeni-release.zip.sha256?plain=1#L1
 
 * `salt.zip` (build attestations): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/salt.zip.sha256)
 https://github.com/xygeni/xygeni/blob/e393089cc73746a0dbbc9c4e8bc83e09c057e39d/checksum/latest/salt.zip.sha256?plain=1#L1
