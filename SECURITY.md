@@ -110,7 +110,7 @@ The level of recognition and potential compensation depends on the vulnerability
 
 | Severity | Impact | Typical Recognition |
 |----------|--------|---------------------|
-| **Critical** | Complete system compromise, data breach, authentication bypass | Monetary reward, premium swag, prominent credit in advisories |
+| **Critical** | Complete system compromise, data breach, authentication bypass | Premium swag, prominent credit in advisories |
 | **High** | Significant security impact, privilege escalation, data exposure | Swag package, extended product access, credit in advisories |
 | **Medium** | Moderate security impact, limited data exposure | Standard swag, product access, public credit |
 | **Low** | Minor security impact, low exploitability | Public credit, acknowledgment in release notes |
