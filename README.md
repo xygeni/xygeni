@@ -69,7 +69,7 @@ Follow the instructions provided in the [Xygeni Quick Start](https://docs.xygeni
 https://github.com/xygeni/xygeni/blob/3f8393dbd63371a77dafb196ea4f0732d62017c0/checksum/latest/install.sh.sha256?plain=1#L1
 
 * `install.ps1` (install script for Windows): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/install.ps1.sha256)
-https://github.com/xygeni/xygeni/blob/cf8fcd100b59aa3d7918e382daf8c91cd124998d/checksum/latest/install.ps1.sha256?plain=1#L1
+https://github.com/xygeni/xygeni/blob/e3ddb01c0fdf781de761e1ed423a1ac3daf91ddb/checksum/latest/install.ps1.sha256?plain=1#L1
 
 * `xygeni-release.zip` (scanner): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/xygeni-release.zip.sha256)
 https://github.com/xygeni/xygeni/blob/1c296bf39f8bbc8d217fdb0413b3f062b50f0d52/checksum/latest/xygeni-release.zip.sha256?plain=1#L1
