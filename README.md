@@ -72,7 +72,7 @@ https://github.com/xygeni/xygeni/blob/90f2ea8874c400ae06980118173821b14dc7cf17/c
 https://github.com/xygeni/xygeni/blob/132b52b916e7eeba777b03b3c7fa1b3b671ce1f8/checksum/latest/install.ps1.sha256?plain=1#L1
 
 * `xygeni-release.zip` (scanner): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/xygeni-release.zip.sha256)
-https://github.com/xygeni/xygeni/blob/90f2ea8874c400ae06980118173821b14dc7cf17/checksum/latest/xygeni-release.zip.sha256?plain=1#L1
+https://github.com/xygeni/xygeni/blob/c72aa25133536bfbcebc455e911a046b1dae82d8/checksum/latest/xygeni-release.zip.sha256?plain=1#L1
 
 * `salt.zip` (build attestations): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/salt.zip.sha256)
 https://github.com/xygeni/xygeni/blob/e0cba2874f552418c958a3f4e7ecb8accc6aa8f9/checksum/latest/salt.zip.sha256?plain=1#L1
