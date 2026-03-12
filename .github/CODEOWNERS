@@ -1,0 +1,11 @@
+# CODEOWNERS for xygeni/xygeni
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# These owners will be automatically requested for review when a PR modifies matching files.
+# Branch protection rule "Require review from Code Owners" should be enabled on main.
+
+# Default: all files require review from the security team
+* @xygeni/security
+
+# Checksums are critical for supply-chain integrity verification
+/checksum/ @xygeni/security @xygeni/release-engineering
