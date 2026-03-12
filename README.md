@@ -65,37 +65,5 @@ Follow the instructions provided in the [Xygeni Quick Start](https://docs.xygeni
 
 ## Current checksums
 
-* `install.sh` (install script for Linux/macOS): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/install.sh.sha256)
-https://github.com/xygeni/xygeni/blob/90f2ea8874c400ae06980118173821b14dc7cf17/checksum/latest/install.sh.sha256?plain=1#L1
-
-* `install.ps1` (install script for Windows): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/install.ps1.sha256)
-https://github.com/xygeni/xygeni/blob/132b52b916e7eeba777b03b3c7fa1b3b671ce1f8/checksum/latest/install.ps1.sha256?plain=1#L1
-
-* `xygeni-release.zip` (scanner): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/xygeni-release.zip.sha256)
-https://github.com/xygeni/xygeni/blob/c72aa25133536bfbcebc455e911a046b1dae82d8/checksum/latest/xygeni-release.zip.sha256?plain=1#L1
-
-* `salt.zip` (build attestations): [checksum link](https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/salt.zip.sha256)
-https://github.com/xygeni/xygeni/blob/e0cba2874f552418c958a3f4e7ecb8accc6aa8f9/checksum/latest/salt.zip.sha256?plain=1#L1
-
-So you may verify the integrity of a downloaded artifact. For example, for install scripts:
-
-* Under Linux / macOS:
-```
-# Download the install script from downloads area
-curl -sLO https://get.xygeni.io/latest/scanner/install.sh
-
-# Check the scanner checksum published in xygeni GitHub repo (separate environment)
-checksum="$(curl -s https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/install.sh.sha256)"
-echo "$checksum install.sh" | sha256sum --check
-```
-
-* Under Windows (PowerShell):
-```
-# Download the install script (via Invoke-WebRequest)
-iwr https://get.xygeni.io/latest/scanner/install.ps1 -useb -OutFile install.ps1
-
-# Check the scanner checksum
-(Get-FileHash '.\install.ps1' -Algorithm SHA256).Hash -eq `
-  (iwr https://raw.githubusercontent.com/xygeni/xygeni/main/checksum/latest/install.ps1.sha256)
-```
+See [checksum/CHECKSUMS.md](checksum/CHECKSUMS.md) for the full list of SHA-256 checksums and verification instructions for all downloadable artifacts (scanner, Salt CLI, bootstrap and install scripts).
 
